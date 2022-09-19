@@ -1,0 +1,66 @@
+div.double {border-style: double;}
+div.solid {border-style: solid;}
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=tel], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+
+.Section-cover {
+    background-color: rgb(238, 238, 238);
+    /* 
+    you could use a sligtly transparent background here, 
+    or tween your opacity in your javascript
+    */
+}
+
+
+#Gender:focus option:first-of-type {
+    display: none;
+}
+
+#Education:focus option:first-of-type {
+    display: none;
+}
+
+  #WorkStatus:focus option:first-of-type {
+    display: none;
+}
+
+  #MigrationStatus:focus option:first-of-type {
+    display: none;
+}
+
+  #Governorate:focus option:first-of-type {
+    display: none;
+}
